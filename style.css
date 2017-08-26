@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2e9afe;
+}
+
+#city {
+    position: fixed;
+    bottom: 0px;
+    height: 250px;
+    width: 100%;
+    background-image: url('city.png');
+}
+
+.cloud-container #cloud1 {
+    position: fixed;
+    top: 250px;
+    left: 400px;
+    width: 20%;
+}
+
+.cloud-container #cloud2 {
+    position: fixed;
+    bottom: 230px;
+    left: 270px;
+    width: 10%;
+}
+
+.cloud-container #cloud3 {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    width: 20%;
+}
+
+.cloud-container #cloud4 {
+    position: fixed;
+    bottom: 150px;
+    left: 50px;
+    width: 25%;
+}
+
+.cloud-container #cloud5 {
+    position: fixed;
+    top: 310px;
+    left: 550px;
+    width: 15%;
+}
+
+#sol {
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background: radial-gradient(#fe9a2e, #ffff00);
+    box-shadow: 0 0 50px 5px rgba(243, 226, 169, 1);
+}
