@@ -50,13 +50,33 @@ body {
     width: 15%;
 }
 
-#sol {
+.eclipse {
     position: fixed;
     top: 20%;
     left: 20%;
+    padding: 12px;
+    //height: 200px;
+    //width: 200px;
+    overflow: hidden;
+    //border: solid 1px red;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
     height: 150px;
     width: 150px;
     border-radius: 100px;
     background: radial-gradient(#fe9a2e, #ffff00);
     box-shadow: 0 0 50px 5px rgba(243, 226, 169, 1);
+}
+
+#moon {
+    position: relative;
+    z-index: 2;
+    left: -100%;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #2e2e2e;
 }
