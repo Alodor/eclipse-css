@@ -5,6 +5,7 @@
 
 body {
     background-color: #2e9afe;
+    //background-color: #084b8a;
 }
 
 #city {
@@ -55,10 +56,7 @@ body {
     top: 15%;
     left: 20%;
     padding: 18px 18px 18px 18px;
-    //height: 200px;
-    //width: 200px;
     overflow: hidden;
-    //border: solid 1px red;
 }
 
 #sun {
