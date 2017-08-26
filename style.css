@@ -52,9 +52,9 @@ body {
 
 .eclipse {
     position: fixed;
-    top: 20%;
+    top: 15%;
     left: 20%;
-    padding: 12px;
+    padding: 18px 18px 18px 18px;
     //height: 200px;
     //width: 200px;
     overflow: hidden;
@@ -68,13 +68,13 @@ body {
     width: 150px;
     border-radius: 100px;
     background: radial-gradient(#fe9a2e, #ffff00);
-    box-shadow: 0 0 50px 5px rgba(243, 226, 169, 1);
+    box-shadow: 0 0 25px 5px rgba(243, 226, 169, 1);
 }
 
 #moon {
     position: relative;
     z-index: 2;
-    left: -100%;
+    left: -112%;
     height: 150px;
     width: 150px;
     border-radius: 100px;
